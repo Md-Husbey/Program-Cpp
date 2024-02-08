@@ -19,6 +19,7 @@ int main(){
     }
     else if (marks >= 50){
         cout<<"Your Grade is C";
+        cout<<"Your Grade is C";
     }
     else if (marks >= 40){
         cout<<"Your Grade is D";
