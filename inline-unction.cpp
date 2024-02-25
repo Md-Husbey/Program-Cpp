@@ -3,15 +3,15 @@ using namespace std;
 inline char grade(int n)
 {
     if (n >= 90)
-        return 'A';
+        cout << "your grade is: f" << endl;
     else if (n >= 80)
-        return 'B';
+        cout << "your grade is: f" << endl;
     else if (n >= 70)
-        return 'C';
+        cout << "your grade is: f" << endl;
     else if (n >= 60)
-        return 'D';
+        cout << "your grade is: f" << endl;
     else
-        return 'F';
+        cout << "your grade is: f" << endl;
 }
 
 int main()
@@ -23,7 +23,10 @@ int main()
     {
         cout << "Invalid mark! " << endl;
     }
-    cout << "your grade is: " <<grade(mark) << endl;
+    else {
+
+    grade(mark);
+    }
     return 0;
 }
 
