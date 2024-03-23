@@ -1,53 +1,51 @@
-/*2) You are building a banking application and need to create a class called "Account" in C++. The
-Account class should have attributes for account number, account holder name, and balance.
-Implement member functions to:
-1. Deposit funds into the account.
-2. Withdraw funds from the account.
-3. Get the current balance of the account.*/
+/*Class and Object Practice Question
 
-#include <iostream>
-using namespace  std;
+1) You work for a car rental company and need to create a C++ class called "Car" to manage their
+fleet. The Car class should have attributes for make, model, year, and mileage. Implement
+member functions to:
+1. Get the car's information as a formatted string.
+2. Update the car's mileage.
+3. Check if the car is a luxury car.*/
+
+#include<iostream>
+using namespace std;
 class account
 {
-    int id;
+    int idNumber;
     string name;
     float balance;
 public:
-	void get(int i ,string n ,float b)
-	{
-	id=i;
-	name = n;
-	balance=b;
-	}
-    void deposit()
+    void gat(int id,string n,float b)
     {
-    	float b;
-    	cout<<"How much many you want you deposit = ";
-    	cin>>b;
-	balance=balance+b;
+        idNumber=id;
+        name=n;
+        balance=b;
     }
-    void wd(float b)
+    void deposit(int n)
     {
-    	cout<<"How much many you want you Widdoro = ";
-    	cin>>b;
-	balance=balance-b;
+    	cout<<"Deposit your Acount = ";
+    	cin>>n;
+	balance=balance+n;
+    }
+    void wd(int n){
+	cout<<"How much you want Withdrow = ";
+	cin>>n;
+	balance=balance-n;
     }
     void display()
     {
-        cout<<"Id is : "<<id<<endl;
-        cout<<"name bbu : "<<name<<endl;
-        cout<<"balance magi : "<<balance<<endl;
+    	cout<<"ID :"<<idNumber<<endl;
+    	cout<<"Name : "<<name<<endl;
+    	cout<<"Balance : "<<balance<<endl;
     }
-
 };
 int main()
 {
-    account husbey ;
-    husbey.get(23203032,"Husbey",1000);
-    husbey.display();
-    husbey.deposit();
-     husbey.display();
-    husbey.wd(00);
-    husbey.display();
-
+	account obj;
+	obj.gat(23203032,"Husbey",1000);
+	obj.display();
+	obj.deposit(0);
+	obj.display();
+	obj.wd(0);
+	obj.display();
 }
