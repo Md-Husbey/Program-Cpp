@@ -13,22 +13,22 @@ class test{
         }
     }
 
-    friend int total(test totalObj);
+    friend int total(test Obj);
 };
 
-int total(test totalObj){
+int total(test Obj){
     for (int i = 0; i < 5; i++)
     {
-        totalObj.sum += totalObj.price[i];
+        Obj.sum += Obj.price[i];
     }
-    cout<<"Five products = "<<totalObj.sum;
+    cout<<"Five products = "<<Obj.sum;
 }
 
 int main(){
-    test testObj;
-    testObj.input();
+    test Obj;
+    Obj.input();
 
-    total(testObj);
+    total(Obj);
 
     return 0;
 }
