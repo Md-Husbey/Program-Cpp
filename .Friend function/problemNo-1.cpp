@@ -5,30 +5,31 @@ using namespace std;
 
 class A
 {
-    float area, length, circumference;
-
+    float length;
+    float width;
 public:
-    void get(float L)
+    void get(float L,float w)
     {
         length = L;
-        circumference = L * 3;
-        area = (1.73 * length * length) / 4;
+        width=w;
+        
     }
-
-    friend void dispay(A);
+    friend float findarea(A & o);
+   
 };
-void dispay(A obj)
-{
-    cout << "circumference IS = " << obj.circumference << endl;
-    cout << "Area IS = " << obj.area << endl;
-}
+    float findarea(A & o)
+    {
+        return o. length *o.width;
+    }
 
 int main()
 {
     A Obj;
 
-    Obj.get(10);
-    dispay(Obj);
+    Obj.get(10,20);
+    findarea(Obj);
+    cout<<" the resyult is: "<<findarea(Obj)<<endl;
+   
 
     return 0;
 }
