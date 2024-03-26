@@ -2,34 +2,27 @@
 friend function findArea that calculates and returns the area of the rectangle.*/
 #include <iostream>
 using namespace std;
-
 class A
 {
     float length;
     float width;
 public:
-    void get(float L,float w)
+    void get(float L, float w)
     {
         length = L;
-        width=w;
-        
+        width = w;
     }
-    friend float findarea(A & o);
-   
+    friend float findarea(A &o);
 };
-    float findarea(A & o)
-    {
-        return o. length *o.width;
-    }
-
+float findarea(A &o)
+{
+    return o.length * o.width;
+}
 int main()
 {
     A Obj;
-
-    Obj.get(10,20);
+    Obj.get(10, 20);
     findarea(Obj);
-    cout<<" the resyult is: "<<findarea(Obj)<<endl;
-   
-
-    return 0;
+    cout << " the resyult is: " << findarea(Obj) << endl;
+return 0;
 }

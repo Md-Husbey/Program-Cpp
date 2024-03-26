@@ -1,28 +1,30 @@
 /*2.Define a class Circle with private members for radius and center point. Write a
 friend function findCircumference that calculates and returns the circumference
 of the circle.*/
-#include<iostream>
+#include <iostream>
 using namespace std;
 const double PI = 3.14159;
 class A
 {
-    float circle,circumference;
+    float redius;
+
 public:
     void get(float r)
     {
-        circumference=PI*(r*r);
-        circle=(3.1416*r);
+        redius = r;
     }
-    friend void dispay( A);
+    friend float findCircumference(A &o);
 };
-void dispay( A obj)
+float findCircumference(A &o)
 {
-    cout<<"circle IS = "<<obj.circle<<endl;
+    float area = PI * (o.redius * o.redius);
+    return area;
 }
 int main()
 {
     A Obj;
     Obj.get(10);
-    dispay(Obj);
+    findCircumference(Obj);
+    cout << "The Area is = " << findCircumference(Obj);
     return 0;
 }
