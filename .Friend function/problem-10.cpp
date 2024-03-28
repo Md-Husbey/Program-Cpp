@@ -41,7 +41,7 @@ else if(n==2)
 cout << "Amount: ";
 cin>> money;
 a.AccountBalance -= money;
-cout<< "Update Amount: "<< a.AccountBalance;
+cout<< "Update Amount is: "<< a.AccountBalance;
 }
 else
 {
