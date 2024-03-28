@@ -12,9 +12,9 @@ int acc_balance;
 public:
 void setdata()
 {
-cout << "Enter the number: ";
+cout << "Enter the number is : ";
 cin >> acc_number;
-cout << "Enter the balance: ";
+cout << "Enter the balance is: ";
 cin >> acc_balance;
 }
 friend int HiFardin(BankAccount a);
