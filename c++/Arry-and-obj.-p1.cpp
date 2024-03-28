@@ -14,7 +14,7 @@ class player
     }
     void output()
     {
-        cout<<"Enter the name:"  <<endl;
+        cout<<"Enter the name is:"  <<endl;
         cout<<"Enter the score:"<<endl;
        
     }
