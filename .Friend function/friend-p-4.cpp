@@ -11,7 +11,7 @@ int cols;
 public:
 int arr[10][10];
 void setdata(){
-cout << "Enter the number of rows and columns: ";
+cout << "Enter the number of rows  columns: ";
 cin >> rows >> cols;
 cout << "Enter the elements of the matrix: ";
 for (int i=0; i<rows; i++){
