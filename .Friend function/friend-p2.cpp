@@ -25,6 +25,6 @@ int main()
     A Obj;
     Obj.get(10);
     findCircumference(Obj);
-    cout << "The Area is = " << findCircumference(Obj);
+    cout << "The Area is the = " << findCircumference(Obj);
     return 0;
 }
