@@ -31,7 +31,7 @@ int n,money;
 cin >> n;
 if (n==1)
 {
-cout << "Amount: ";
+cout << "Amount is: ";
 cin>> money;
 a.AccountBalance += money;
 cout << "Update Amount: " << a.AccountBalance;
