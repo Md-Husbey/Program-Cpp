@@ -26,7 +26,7 @@ friend void function(Customer a);
 };
 void function(Customer a)
 {
-cout << "1. Add \n2. Withdraw \nChoose : ";
+cout << "1. Add  \n 2. Withdraw \n Choose : ";
 int n,money;
 cin >> n;
 if (n==1)
