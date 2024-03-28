@@ -12,11 +12,11 @@ int z;
 public:
 void setdata()
 {
-cout << "Enter the value of x: ";
+cout << "Enter the value of x : ";
 cin >> x;
-cout << "Enter the value of y: ";
+cout << "Enter the value of y : ";
 cin >> y;
-cout << "Enter the value of z: ";
+cout << "Enter the value of z : ";
 cin >> z;
 }
 friend int function(Vector a, Vector b);
