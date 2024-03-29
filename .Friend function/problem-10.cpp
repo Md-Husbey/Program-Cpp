@@ -45,7 +45,7 @@ cout<< "Update Amount is: "<< a.AccountBalance;
 }
 else
 {
-cout << "Invalid command";
+cout << "Inval id command";
 }
 }
 int main()
