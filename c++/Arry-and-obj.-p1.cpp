@@ -22,8 +22,8 @@ class player
 int main()
 {
 
-    player obj[20];
-    for(int i=0;i<20;i++)
+    player obj[10];
+    for(int i=0;i<10;i++)
     {
         obj[i].input();
     }
