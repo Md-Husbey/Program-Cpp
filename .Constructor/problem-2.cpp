@@ -16,7 +16,7 @@ class Rectangular {
 
         Rectangular () {
             width = 25;
-            height = 5;
+            height = 55;
         }
 
         Rectangular (int w, int h) {
