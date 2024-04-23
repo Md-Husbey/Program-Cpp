@@ -13,7 +13,7 @@ protected:
 public:
     Person(){}
     Person (string n){
-    name = n;
+   name = n; 
     }
 };
 
@@ -21,8 +21,7 @@ class Student: protected Person{
 protected:
     int id;
 public:
-    Student(){
-    cout << "HI"<<endl;}
+    
     Student(string n, int i){
     name = n;
     id = i;
