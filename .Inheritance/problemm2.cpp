@@ -29,10 +29,10 @@ public:
         width = w;
         height = h;
 
-        area = h * w;
+        
     }
     void display()
-    {
+    { 
         cout << "area is = " << area;
     }
 };
