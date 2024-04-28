@@ -36,7 +36,7 @@ public:
     }
     void display()
     {
-        cout<<"Account name = "<<AccoubtName<<endl<<"Name = "<<AHN<<endl<<"Balance = "<<Balance<<endl;
+        cout<<"Account name  = "<<AccoubtName<<endl<<"Name = "<<AHN<<endl<<"Balance = "<<Balance<<endl;
     }
 };
 int main()
