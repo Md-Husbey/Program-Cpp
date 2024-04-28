@@ -30,7 +30,7 @@ public:
     void wd()
     {
         float n;
-        cout<<"How much you want Withdrow = ";
+        cout<<"How much you want Withdrow  = ";
         cin>>n;
         Balance=Balance-n;
     }
