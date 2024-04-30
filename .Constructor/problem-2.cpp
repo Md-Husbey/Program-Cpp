@@ -61,6 +61,6 @@ int main(int argc,char *argv[])
     Rectangular a, b(10,12);
     Square c(5);
     cout << "Width for a: " << a.getArea() << " Perimeter for a= " << a.getPerimeter() << endl;
-    cout << "Width for b: " << b.getArea() << " Perimeter for b: " << b.getPerimeter() << endl;
+    cout << "Width for b: " << b.getArea() << " Perimeter for b= " << b.getPerimeter() << endl;
     cout << "Area for c: " << c.getArea() << " Perimeter for c: " << c.getPerimeter() << endl;
  }
