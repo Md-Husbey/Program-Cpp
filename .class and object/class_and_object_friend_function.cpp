@@ -11,7 +11,7 @@ public:
     {
         cout << "Enter the name: ";
         cin >> name;
-        cout << "Enter the time: ";
+        cout << "Enter the time : ";
         cin >> time;
     }
     void output()
