@@ -11,7 +11,7 @@ public:
     int rollNumber;
     float marks[3];
     void inputMarks() {
-        cout << "Enter marks for student with roll number " << rollNumber << ":" << endl;
+        cout << "Enter marks for student with roll number  " << rollNumber << ":" << endl;
         for (int i = 0; i < 3; i++) {
             cout << "Enter marks for subject " << (i + 1) << ": ";
             cin >> marks[i];
