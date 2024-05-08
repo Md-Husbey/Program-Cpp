@@ -15,7 +15,7 @@ public:
     {
         cout<<"Account name = ";
         cin>>AccoubtName;
-        cout<<"Name  = ";
+        cout<<"Name  =  ";
         cin>>AHN;
         cout<<"Balance = ";
         cin>>Balance;
