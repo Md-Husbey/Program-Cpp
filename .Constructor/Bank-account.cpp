@@ -13,7 +13,7 @@ class BA
 public:
     BA()
     {
-        cout<<"Account name = ";
+        cout<<"Account name  = ";
         cin>>AccoubtName;
         cout<<"Name  =  ";
         cin>>AHN;
