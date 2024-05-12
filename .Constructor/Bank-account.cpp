@@ -17,7 +17,7 @@ public:
         cin>>AccoubtName;
         cout<<"Name  =  ";
         cin>>AHN;
-        cout<<"Balance = ";
+        cout<<"Balance =";
         cin>>Balance;
     }
     void deposit()
