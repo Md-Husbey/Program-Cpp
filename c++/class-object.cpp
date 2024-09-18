@@ -10,7 +10,7 @@ public:
     {
         cout<<" constructor called"<<endl;
     }
-    void get(string id,string n,int q)
+    void get(string id,string n,int  q)
     {
         ID=id;
         name=n;
